@@ -49,6 +49,7 @@ import { AuthModule } from './modules/auth/auth.module';
 import { BlockchainModule } from './modules/blockchain/blockchain.module';
 import { BlockchainMarketingModule } from './modules/blockchain/marketing/marketing.module';
 import { BrandingModule } from './modules/branding/branding.module';
+import { HowmanyhoursModule } from './modules/howmanyhours/howmanyhours.module';
 import { CommentsModule } from './modules/comments/comments.module';
 import { NodesMarketingModule } from './modules/nodes/nodes.module';
 import { JobsMarketingModule } from './modules/jobs/jobs.module';
@@ -109,6 +110,7 @@ import { HttpClientModule } from "@angular/common/http";
     BlockchainMarketingModule,
     NodesMarketingModule,
     BrandingModule,
+    HowmanyhoursModule,
     CommentsModule,
     JobsMarketingModule,
     HelpdeskModule,

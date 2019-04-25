@@ -1,0 +1,25 @@
+<div class="m-marketing">
+
+  <div class="m-marketing--hero">
+    <div class="m-marketing--hero--inner">
+      <div class="m-marketing--hero--slogans">
+        <h1>How Many Hours</h1>
+        <h3>Do you remember when you join mids?</h3>
+      </div>
+      <div class="m-marketing--hero--overlay"></div>
+    </div>
+  </div>
+
+
+  <div class="m-marketing--contents m-layout--row" [hidden]="inProgress">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--6-col-phone">
+      <i class="material-icons">hourglass_full</i>
+      <h2>Look at the time</h2>
+      <span>{{(hours) | number:'1.0-0'}} hours have passed since you registered</span>
+    </div>
+  </div>
+
+
+</div>
+
+<m-footer></m-footer>
